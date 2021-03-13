@@ -5,9 +5,9 @@ import ProfileCard from '../components/ProfileCard'
 const useStyles = makeStyles((theme) => ({
   root: {
     // flex: 1,
-
+    // padding: '15px 25px 15px 15px',
     [theme.breakpoints.up('md')]: {
-      //
+      padding: 0,
     },
     [theme.breakpoints.up('lg')]: {
       //

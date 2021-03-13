@@ -3,7 +3,9 @@ import { Card, makeStyles } from '@material-ui/core'
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    [theme.breakpoints.up('md')]: { marginTop: '20px', borderRadius: '40px' },
+    borderRadius: '40px',
+    margin: '15px',
+    [theme.breakpoints.up('md')]: { margin: '20px 0px 0px 0px', borderRadius: '40px' },
   },
 }))
 
