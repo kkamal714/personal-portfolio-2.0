@@ -116,7 +116,7 @@ export default function ProfileCard() {
         </div>
         <Box display="flex">
           <TextWithIcon text="GET CV" icon={<CloudDownload className={classes.getIcon} />} file={Resume} />
-          <TextWithIcon text="CONTACT ME" icon={<Call className={classes.getIcon} />} />
+          <TextWithIcon text="CONTACT ME" icon={<Call className={classes.getIcon} />} file="tel:7053617608" />
         </Box>
       </Box>
     </CustomCard>
