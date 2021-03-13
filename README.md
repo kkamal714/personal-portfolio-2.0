@@ -1,1 +1,1 @@
-## LIVE PREVIEW  :  https://kamal-portfolio-71g0c9p38-kkamal714.vercel.app/
+## LIVE PREVIEW  :  https://kamal-portfolio.vercel.app/
