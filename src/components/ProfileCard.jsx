@@ -105,7 +105,7 @@ export default function ProfileCard() {
               <Facebook className={classes.icon} />
             </a>
             <a
-              href="https://api.whatsapp.com/send?phone=7053617608"
+              href="https://api.whatsapp.com/send?phone=+917053617608"
               target="_blank"
               rel="noreferrer"
               className={classes.link}
