@@ -3,7 +3,11 @@ import React from 'react'
 import { makeStyles, Typography } from '@material-ui/core'
 const useStyles = makeStyles((theme) => ({
   label: {
+    color: theme.palette.primary.main,
+    fontWeight: theme.typography.fontWeightBold,
+    fontSize: '35px',
     [theme.breakpoints.up('md')]: {
+      fontSize: '15px',
       //
     },
     [theme.breakpoints.up('lg')]: {

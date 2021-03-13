@@ -3,12 +3,16 @@ import React from 'react'
 import { makeStyles, Typography } from '@material-ui/core'
 const useStyles = makeStyles((theme) => ({
   heading: {
+    fontWeight: theme.typography.fontWeightBold,
+    fontSize: '58px',
+
     [theme.breakpoints.up('md')]: {
-      //
+      fontSize: '32px',
     },
-    [theme.breakpoints.up('lg')]: {
-      //
-    },
+    // [theme.breakpoints.up('lg')]: {
+    //   fontSize: '32px',
+    //   // fontWeight: 400,
+    // },
   },
 }))
 
