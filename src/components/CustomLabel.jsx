@@ -5,7 +5,7 @@ const useStyles = makeStyles((theme) => ({
   label: {
     color: theme.palette.primary.main,
     fontWeight: theme.typography.fontWeightBold,
-    fontSize: '35px',
+    fontSize: '15px',
     [theme.breakpoints.up('md')]: {
       fontSize: '15px',
       //

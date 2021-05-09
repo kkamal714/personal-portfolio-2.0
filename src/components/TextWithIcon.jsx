@@ -4,7 +4,7 @@ import { makeStyles } from '@material-ui/core'
 
 const useStyles = makeStyles((theme) => ({
   box: {
-    fontSize: '38px',
+    // fontSize: '47px',
     cursor: 'pointer',
     color: '#242B2E',
     width: '50%',
