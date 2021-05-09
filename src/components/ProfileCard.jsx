@@ -13,6 +13,8 @@ import CustomCard from './CustomCard'
 const useStyles = makeStyles((theme) => ({
   image: {
     clipPath: 'polygon(100% 0%, 100% 75%, 50% 100%, 0% 75%, 0% 0%)',
+    height: '194px',
+
     [theme.breakpoints.up('md')]: {
       width: '100%',
       //
@@ -27,14 +29,14 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: 'center',
     position: 'relative',
     textAlign: 'center',
-    top: '-180px',
+    top: '-70px',
     [theme.breakpoints.up('md')]: { top: '-108px' },
   },
   profileImage: {
     margin: '0px auto',
     display: 'flex',
-    width: theme.spacing(40),
-    height: theme.spacing(40),
+    width: theme.spacing(13),
+    height: theme.spacing(13),
     [theme.breakpoints.up('md')]: {
       width: theme.spacing(19),
       height: theme.spacing(19),
@@ -42,9 +44,9 @@ const useStyles = makeStyles((theme) => ({
   },
   icon: {
     paddingLeft: '15px',
-    marginTop: '35px',
+    marginTop: '15px',
     cursor: 'pointer',
-    fontSize: '48px',
+    // fontSize: '48px',
     [theme.breakpoints.up('md')]: {
       marginTop: '15px',
       paddingLeft: '10px',
@@ -69,9 +71,10 @@ const useStyles = makeStyles((theme) => ({
     '&:hover': {
       fontSize: '28px',
     },
+    [theme.breakpoints.down('sm')]: { fontSize: '48px' },
   },
   heading: {
-    margin: '10px 0px 10px 0px',
+    // margin: '10px 0px 10px 0px',
     [theme.breakpoints.up('md')]: { margin: 0 },
   },
 }))
