@@ -33,7 +33,7 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.up('md')]: {
       marginTop: '15px',
       paddingLeft: '10px',
-      fontSize: '48px',
+      fontSize: '30px',
     },
     '&:hover': {
       //   backgroundColor: theme.palette.primary.main,

@@ -4,12 +4,13 @@ import { makeStyles, Grid } from '@material-ui/core'
 import ProfileCard from '../components/ProfileCard'
 import SkillCard from '../components/Cards/SkillCard'
 import BioDataCard from '../components/Cards/BioDataCard'
+import Projects from '../components/Projects'
 const useStyles = makeStyles((theme) => ({
   root: {
     // flex: 1,
     // padding: '15px 25px 15px 15px',
     [theme.breakpoints.up('md')]: {
-      padding: 0,
+      padding: '0px 50px',
     },
     [theme.breakpoints.up('lg')]: {
       //
@@ -22,17 +23,21 @@ export default () => {
 
   return (
     <Grid container className={classes.root}>
-      <Grid item md={1} lg={1} />
-      <Grid item xs={12} md={10} lg={4}>
+      <Grid item lg={1} />
+      <Grid item xs={12} lg={4}>
         <ProfileCard />
       </Grid>
-      <Grid item md={1} lg={1} />
+      <Grid item lg={1} />
 
-      <Grid item xs={12} md={10} lg={4}>
+      <Grid item xs={12} lg={4}>
         <BioDataCard />
         <SkillCard />
       </Grid>
-      <Grid item md={1} lg={2} />
+      <Grid item lg={2} />
+      <Grid item lg={1} />
+      <Grid item xs={12} lg={9}>
+        <Projects />
+      </Grid>
     </Grid>
   )
 }
