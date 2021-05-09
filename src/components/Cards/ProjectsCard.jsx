@@ -9,7 +9,7 @@ import CustomLabel from '../CustomLabel'
 const useStyles = makeStyles((theme) => ({
   image: {
     width: '100%',
-    objectFit: 'cover',
+    objectFit: 'contain',
     [theme.breakpoints.up('md')]: {
       //
     },
